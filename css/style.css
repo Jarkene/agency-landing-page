@@ -1,0 +1,423 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+a, a:visited, a:hover, a:active, a:focus, a:active:hover {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+}
+
+h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+#header {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    background-color: #F6F2F2;
+}
+
+.header__navbar {
+    background-color: #313030;
+    padding: 0;
+    margin-bottom: 80px;
+    min-height: 60px;
+    transition: 0.3s;
+}
+
+.header-navbar__toggle-button {
+    color: white;
+    font-size: 35px;
+    float: right;
+    margin-right: 15px;
+    position: relative;
+    top: 4px;
+    display: none;
+}
+
+.header-navbar__toggle-button:hover {
+    cursor: pointer;
+}
+
+.header__navbar ul {
+    margin: 0;
+}
+
+.header__navbar ul li {
+    font-weight: bold;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    padding: 30px 10px;
+    margin: 0px 5px;
+}
+
+.header__navbar ul li:hover {
+    cursor: pointer;
+    background-color: #FF3F40;
+    transition: 0.3s;
+}
+
+.header-content__title {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.header-content__text {
+    width: 80%;
+    color: #7b7a7b;
+    margin-bottom: 50px;
+}
+
+button {
+    background: #ff2d2d;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0;
+    width: 180px;
+    font-weight: 600;
+    color: #E0E0E0;
+    margin-bottom: 40px;
+    border: 2px solid #ff2d2d;
+}
+
+button:hover {
+    color: #ff2d2d;
+    background-color: inherit;
+    transition: 0.3s;
+}
+
+button:active {
+    outline: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.header-content__rectangle {
+    width: 550px;
+    height: 360px;
+    background-color: #c4c0b1;
+    box-shadow: 0px 0px 80px rgb(165, 165, 165);
+}
+
+.header-content__rectangle svg image:hover {
+    cursor: pointer;
+    fill: gold;
+}
+
+#features {
+    padding-top: 70px;
+}
+
+#features .container {
+    padding-bottom: 70px;
+    border-bottom: 1px solid #999;
+}
+
+.features__title {
+    margin-bottom: 30px;
+}
+
+.features__text {
+    margin-bottom: 30px;
+}
+
+.features__button {
+    background-color: inherit;
+    color: #ff2d2d;
+}
+
+.features__button:hover {
+    background-color: #ff2d2d;
+    color: #E0E0E0;
+}
+
+.features__item {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.features__item img {
+    position: relative;
+    top: 5px;
+    margin-bottom: 40px;
+}
+
+.features__item p {
+    color: #555;
+}
+
+.features-item__title {
+    margin-bottom: 15px;
+}
+
+#production {
+    padding-top: 70px;
+}
+
+#production h2, #production p {
+    margin-bottom: 30px;
+}
+
+#production hr {
+    background-color: #FF3F40;
+    height: 2px;
+    width: 20%;
+    margin-bottom: 70px;
+}
+
+.production__menu {
+    margin-bottom: 30px;
+}
+
+.production__menu ul {
+    width: 100%;
+}
+
+.production__menu ul li {
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 600;
+}
+
+.production__menu ul li a:hover {
+    color: #FF3F40;
+}
+
+.production__menu ul li a:focus {
+    color: #FF3F40;
+}
+
+.photo {
+    background-color: #f5f0dd;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.team-title__header {
+    margin-bottom: 30px;
+}
+
+.team-title__text {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    float: left;
+    background-color: #FF3F40;
+    height: 2px;
+    width: 15%;
+    margin-bottom: 70px;
+}
+
+.team__main-photo {
+    width: 90%;
+    height: 460px;
+    background-color: #f5f0dd;
+}
+
+.team-photo__title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.team-photo__text {
+    margin-bottom: 40px;
+}
+
+.team-photo__links {
+    margin-bottom: 41px;
+}
+
+.team-photo__links li {
+    font-style: italic;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+.employee__photo {
+    background-color: #f5f0dd;
+    height: 220px;
+}
+
+.employees .row div {
+    padding: 10px;
+}
+
+#subscribe {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #f5f0dd;
+}
+
+.subscribe__title {
+    text-transform: none;
+    font-size: 42px;
+    color: white;
+}
+
+.subscribe__text {
+    color: white;
+}
+
+input, textarea {
+    width: 65%;
+    height: 80px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.subscribe__input-container {
+    margin-top: 60px;
+}
+
+.subscribe__button {
+    width: 27%;
+    margin-left: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    height: 80px;
+}
+
+#send-message {
+    padding: 110px 0;
+}
+
+.send-message__title {
+    margin-bottom: 45px;
+}
+
+.send-message__text {
+    margin-bottom: 45px;
+}
+
+.send-message__form {
+    clear: both;
+}
+
+.send-message__form input {
+    background-color: #e5e5e5
+}
+
+.send-message-form__name, .send-message-form__email {
+    padding: 20px 30px;
+    width: 47%;
+    height: 60px;
+}
+
+.send-message-form__message {
+    height: 250px;
+    background-color: #e5e5e5;
+    margin-top: 40px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.send-message-form__button {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    height: 70px;
+}
+
+.send-message__contacts {
+    margin-top: 305px;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    right: 0;
+    position: absolute;
+    background-color: #2d2d2d;
+    color: #c3c2c2;
+    padding-left: 80px;
+}
+
+.send-message-contacts__title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.send-message__contacts p {
+    color: #c3c2c2;
+}
+
+#footer {
+    background-color: #2d2d2d;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#footer p {
+    color: #c3c2c2;
+}

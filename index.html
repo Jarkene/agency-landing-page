@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="header__navbar">
+                <div class="header-navbar__toggle-button">☰</div>
+                <div class="row justify-content-center">
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__content">
+                <div class="row">
+                    <div class="col-12 col-xl-6 text-center">
+                        <h1 class="header-content__title">our strong organisation</h1>
+                        <p class="header-content__text mx-auto mx-xl-0">Lorem ipsum dolor sit amet, consectetur adipis
+                            cing elit, sed
+                            do eiusmod tempor incididunt ut labore et. ectetur adig ipis cing elit, sed do eiusmod
+                            tempor incididunt.</p>
+                        <button type="button" class="header-content__button">Contact Us</button>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <div class="float-xl-right header-content__rectangle d-flex justify-content-center align-items-center mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px"
+                                height="69px">
+                                <image opacity="0.8" x="0px" y="0px" width="70px" height="69px" xlink:href="data:img/png;base64,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" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="features">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5 col-12">
+                    <h2 class="features__title">do you know we can provide for you?</h2>
+                    <p class="features__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident qui
+                        perspiciatis velit, delectus omnis inventore eos. Eaque id, rerum, mollitia facilis architecto
+                        explicabo sequi neque, voluptas aliquid deserunt similique ut!</p>
+                    <button class="features__button">Learn More</button>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="features__item">
+                                <img src="./img/Settings.png" alt="settings">
+                                <h3 class="features-item__title">Managment</h3>
+                                <p>Lorem ipsum dolor sit, amet elit. Illum aliquam, sapiente officia saepe quam
+                                    temporibus iste facilis dolores? Exercitationem pariatur optio porro.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="features__item">
+                                <img src="./img/Pencil.png" alt="settings">
+                                <h3 class="features-item__title">UX/UI Design</h3>
+                                <p>Lorem ipsum dolor sit, amet elit. Illum aliquam, sapiente officia saepe quam
+                                    temporibus iste facilis dolores? Exercitationem pariatur optio porro.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="features__item">
+                                <img src="./img/Diamond.png" alt="settings">
+                                <h3 class="features-item__title">Logo / Branding</h3>
+                                <p>Lorem ipsum dolor sit, amet elit. Illum aliquam, sapiente officia saepe quam
+                                    temporibus iste facilis dolores? Exercitationem pariatur optio porro.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="features__item">
+                                <img src="./img/Truck 2.png" alt="settings">
+                                <h3 class="features-item__title">Animation</h3>
+                                <p>Lorem ipsum dolor sit, amet elit. Illum aliquam, sapiente officia saepe quam
+                                    temporibus iste facilis dolores? Exercitationem pariatur optio porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="production">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12">
+                    <h2 class="text-center">feature products</h2>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, earum
+                        voluptatum aliquam quisquam</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="production__menu d-flex justify-content-center">
+                        <ul class="list-unstyled d-sm-flex justify-content-between">
+                            <li><a href="#">all</a></li>
+                            <li><a href="#">print template</a></li>
+                            <li><a href="#">web template</a></li>
+                            <li><a href="#">user interface</a></li>
+                            <li><a href="#">mock-up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="production__photos">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="photo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-12">
+                    <div class="team__title">
+                        <h2 class="team-title__header">meet our team</h2>
+                        <div class="team-title__text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem maiores totam
+                                fuga. Molestias cum voluptatibus facilis earum totam.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12 mb-md-0 mb-3">
+                    <div class="team__main-photo"></div>
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="row">
+                        <div class="col-sm-9 col-12">
+                            <h3 class="team-photo__title">Mark Waugh</h3>
+                            <p class="team-photo__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Mollitia, molestias. Minus veniam ipsam quam quibusdam sit reprehenderit saepe facilis</p>
+                            <ul class="team-photo__links list-unstyled d-sm-flex">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Dribble</a></li>
+                                <li><a href="#">Behance</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="employees">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3">
+                                <div class="employee__photo"></div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="employee__photo"></div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="employee__photo"></div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="employee__photo"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="subscribe__title text-center">Design tips, tricks, and freebies. Delivered weekly.</h2>
+                    <p class="subscribe__text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="subscribe__input-container">
+                        <input class="subscribe__input" type="email" placeholder="Email Address...">
+                        <button class="subscribe__button" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="send-message">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="send-message__text-container">
+                        <h2 class="send-message__title">Get in touch</h2>
+                        <p class="send-message__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                            magni molestiae minima architecto blanditiis, doloribus aspernatur quasi aperiam. Ex
+                            suscipit similique, error culpa sequi quasi explicabo minima porro hic esse.
+                            <hr>
+                        </p>
+                    </div>
+                    <form action="#" class="send-message__form">
+                        <div class="send-message-form__input-container d-sm-flex justify-content-between">
+                            <input type="text" placeholder="Name" class="send-message-form__name">
+                            <input type="text" placeholder="Your Mail" name="" class="send-message-form__email">
+                        </div>
+                        <textarea placeholder="Type your message" type="text" name="" class="send-message-form__message"></textarea>
+                        <button type="button" class="send-message-form__button">Send message</button>
+                    </form>
+                </div>
+                <div class="send-message__contacts">
+                    <div class="send-message-contacts__container">
+                        <h4 class="send-message-contacts__title">Contact info</h4>
+                        <p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                        <p>redwan@deviserweb.com</p>
+                        <p>(+88) 017 617 46373</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-content d-sm-flex justify-content-between">
+                        <p>© Copyright @Junaed 2016, All rights reserved.</p>
+                        <div class="footer__images-container col-xl-2 col-md-3 col-sm-4 col-6 d-flex align-items-center justify-content-between">
+                            <img src="./img/twitter.png" alt="">
+                            <img src="./img/linkedin.png" alt="">
+                            <img src="./img/google.png" alt="">
+                            <img src="./img/facebook.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
